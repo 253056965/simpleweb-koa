@@ -1,0 +1,25 @@
+[{
+    "name": "qpplatformdb",
+    "type": "mysql",
+    "host": "172.16.10.70",
+    "port": 4306,
+    "username": "root",
+    "password": "123456",
+    "database": "qpplatformdb",
+    "synchronize": true,
+    "entities": [
+        "dist/dao/qpplatformdb/entities/*.js"
+    ],
+    "subscribers": [
+        "src/subscriber/*.js"
+    ],
+    "migrations": [
+        "src/migration/*.js"
+    ],
+    "cli": {
+        "entitiesDir": "src/entity",
+        "migrationsDir": "src/migration",
+        "subscribersDir": "src/subscriber"
+    }
+}
+]
