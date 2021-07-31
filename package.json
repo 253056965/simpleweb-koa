@@ -33,7 +33,7 @@
     "toidentifier": "^1.0.0",
     "tsscmp": "^1.0.6",
     "typeorm": "^0.2.20",
-    "urijs": "^1.19.2"
+    "urijs": "^1.19.7"
   },
   "devDependencies": {
     "@types/koa": "^2.11.0",
